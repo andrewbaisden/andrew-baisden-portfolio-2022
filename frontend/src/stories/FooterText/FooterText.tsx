@@ -11,7 +11,7 @@ export const FooterText = ({ ...props }: FooterTextProps) => {
 	const d = new Date();
 	let year = d.getFullYear();
 
-	const [currYear, setCurrYear] = useState(year);
+	const [currYear] = useState(year);
 
 	return (
 		<>
