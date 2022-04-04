@@ -25,7 +25,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
 					/>
 					<p className="hero-profile-tagline">Building websites, apps and writing is what I do best</p>
 					<a
-						href="https://andrewbaisden.carrd.co/"
+						href="https://limey.io/andrewbaisden"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={activeTheme === 'light' ? 'hero-profile-button-light-theme' : 'hero-profile-button-dark-theme'}
