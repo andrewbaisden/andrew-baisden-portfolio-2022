@@ -1,6 +1,6 @@
 # Portfolio website 2022 version
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1645187426/Portfolio_Website_2022_qzjj8g.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1645187426/Portfolio_Website_2022_qzjj8g.png 'Portfolio Website 2022')
+![Portfolio Website 2022](/img/portfolio-2022.png 'Portfolio Website 2022')
 
 ## Setup
 
