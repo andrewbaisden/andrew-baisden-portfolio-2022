@@ -1,6 +1,5 @@
-import React from 'react';
 import Typewriter from 'typewriter-effect';
-import profilePictureHero from '../../img/profile-picture-4.png';
+import profilePictureHero from '../../img/profile-picture-5.png';
 import './HeroProfile.css';
 
 import { useTheme } from '../../context/ThemeContext';
