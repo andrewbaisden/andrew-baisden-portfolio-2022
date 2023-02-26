@@ -18,60 +18,60 @@ import AdobeXDLogo from '../AdobeXDLogo/AdobeXDLogo';
 interface SkillGroupIconsProps {}
 
 export const SkillGroupIcons = ({ ...props }: SkillGroupIconsProps) => {
-	const [technicalStack] = useState<{ image: object }[]>([
-		{
-			image: <HTML5Logo />,
-		},
-		{
-			image: <CSS3Logo />,
-		},
-		{
-			image: <JavaScriptLogo />,
-		},
-		{
-			image: <TypeScriptLogo />,
-		},
-		{
-			image: <ReactLogo />,
-		},
-		{
-			image: <ReduxLogo />,
-		},
-		{
-			image: <CSharpLogo />,
-		},
-		{
-			image: <PythonLogo />,
-		},
-		{
-			image: <NodeJSLogo />,
-		},
-		{
-			image: <MongoDBLogo />,
-		},
-		{
-			image: <PostgreSQLLogo />,
-		},
-		{
-			image: <PhotoshopLogo />,
-		},
-		{
-			image: <FigmaLogo />,
-		},
-		{
-			image: <AdobeXDLogo />,
-		},
-	]);
+  const [technicalStack] = useState<{ image: object }[]>([
+    {
+      image: <HTML5Logo />,
+    },
+    {
+      image: <CSS3Logo />,
+    },
+    {
+      image: <JavaScriptLogo />,
+    },
+    {
+      image: <TypeScriptLogo />,
+    },
+    {
+      image: <ReactLogo />,
+    },
+    {
+      image: <ReduxLogo />,
+    },
+    {
+      image: <CSharpLogo />,
+    },
+    {
+      image: <PythonLogo />,
+    },
+    {
+      image: <NodeJSLogo />,
+    },
+    {
+      image: <MongoDBLogo />,
+    },
+    {
+      image: <PostgreSQLLogo />,
+    },
+    {
+      image: <PhotoshopLogo />,
+    },
+    {
+      image: <FigmaLogo />,
+    },
+    // {
+    // 	image: <AdobeXDLogo />,
+    // },
+  ]);
 
-	return (
-		<>
-			<div className="tech-stack-container">
-				{technicalStack.map((skill) => (
-					<div className="tech-stack">{skill.image}</div>
-				))}
-			</div>
-		</>
-	);
+  return (
+    <>
+      <div className="tech-stack-container">
+        {technicalStack.map((skill) => (
+          <div className="tech-stack">{skill.image}</div>
+        ))}
+      </div>
+    </>
+  );
 };
 
 export default SkillGroupIcons;
