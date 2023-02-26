@@ -13,7 +13,7 @@ import MongoDBLogo from '../MongoDBLogo/MongoDBLogo';
 import PostgreSQLLogo from '../PostgreSQLLogo/PostgreSQLLogo';
 import PhotoshopLogo from '../PhotoshopLogo/PhotoshopLogo';
 import FigmaLogo from '../FigmaLogo/FigmaLogo';
-import AdobeXDLogo from '../AdobeXDLogo/AdobeXDLogo';
+// import AdobeXDLogo from '../AdobeXDLogo/AdobeXDLogo';
 
 interface SkillGroupIconsProps {}
 
