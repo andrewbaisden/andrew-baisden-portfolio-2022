@@ -12,14 +12,13 @@ export const AboutProfileText = ({ ...props }: AboutProfileTextProps) => {
           My name is Andrew, and I am a Software Developer from London, England.
         </p>
         <p>
-          Programming, content creation and technical writing are 3 of my best
-          traits. I really enjoy getting my hands dirty and playing around with
-          code bases. I find it fascinating because the only limit is your
-          imagination. I have a computer science background but the majority of
-          my most recent skills have been self taught. I currently have 3 main
-          technical stacks which I work with. This includes React with
-          TypeScript and Node. Python and Django/Flask. And also ASP.NET Core
-          combined with C#.
+          I work across the entire stack as a software developer. There are now
+          2 main technical stacks I use. I'm utilising JavaScript, React, and
+          Node in addition to Python, and Django. Content creation and technical
+          writing are two of my strongest soft skills because they provide a
+          platform for learning for myself and other seasoned and aspiring
+          engineers. I enjoy interacting with the developer community, and I
+          have a large following and am extremely active on social media.
         </p>
         <p>
           My programming skills are quite good as are my design skills. In fact

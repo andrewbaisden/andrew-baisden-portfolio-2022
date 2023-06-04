@@ -1,5 +1,5 @@
 import Typewriter from 'typewriter-effect';
-import profilePictureHero from '../../img/profile-picture-5.png';
+import profilePictureHero from '../../img/profile-picture.png';
 import './HeroProfile.css';
 
 import { useTheme } from '../../context/ThemeContext';
@@ -28,7 +28,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             }}
           />
           <p className="hero-profile-tagline">
-            Building websites, apps and writing is what I do best
+            What I excel at is creating software, websites, apps, and writing.
           </p>
           <a
             href="https://limey.io/andrewbaisden"
