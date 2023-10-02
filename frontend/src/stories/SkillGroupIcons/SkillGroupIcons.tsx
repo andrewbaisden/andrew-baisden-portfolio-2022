@@ -10,7 +10,7 @@ import CSharpLogo from '../CSharpLogo/CSharpLogo';
 import PythonLogo from '../PythonLogo/PythonLogo';
 import NodeJSLogo from '../NodeJSLogo/NodeJSLogo';
 import MongoDBLogo from '../MongoDBLogo/MongoDBLogo';
-import PostgreSQLLogo from '../PostgreSQLLogo/PostgreSQLLogo';
+import PostgreSQLLogo from '../SQLLogo/SQLLogo';
 import PhotoshopLogo from '../PhotoshopLogo/PhotoshopLogo';
 import FigmaLogo from '../FigmaLogo/FigmaLogo';
 // import AdobeXDLogo from '../AdobeXDLogo/AdobeXDLogo';
@@ -37,9 +37,9 @@ export const SkillGroupIcons = ({ ...props }: SkillGroupIconsProps) => {
     {
       image: <ReduxLogo />,
     },
-    {
-      image: <CSharpLogo />,
-    },
+    // {
+    //   image: <CSharpLogo />,
+    // },
     {
       image: <PythonLogo />,
     },
