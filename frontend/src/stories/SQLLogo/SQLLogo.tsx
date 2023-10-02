@@ -2,9 +2,9 @@ import React from 'react';
 
 import { useTheme } from '../../context/ThemeContext';
 
-interface SQLLogo {}
+interface SQLLogoProps {}
 
-export const SQLLogo = ({ ...props }: SQLLogo) => {
+export const SQLLogo = ({ ...props }: SQLLogoProps) => {
   const { activeTheme } = useTheme();
   return (
     <>

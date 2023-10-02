@@ -1,9 +1,6 @@
-import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import './SocialMediaCarousel.css';
-
-import TwitterIcon from '../../img/twitter-icon.svg';
 import XIcon from '../../img/x-social-media-icon.svg';
 import LinkedInIcon from '../../img/linkedin-icon.svg';
 import InstagramIconPersonal from '../../img/instagram-personal-icon.svg';
