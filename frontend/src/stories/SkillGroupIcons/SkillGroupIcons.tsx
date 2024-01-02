@@ -59,7 +59,9 @@ export const SkillGroupIcons = ({ ...props }: SkillGroupIconsProps) => {
     <>
       <div className="tech-stack-container">
         {technicalStack.map((skill) => (
-          <div className="tech-stack">{skill.image}</div>
+          <div className="tech-stack" key={Math.random()}>
+            {skill.image}
+          </div>
         ))}
       </div>
     </>
