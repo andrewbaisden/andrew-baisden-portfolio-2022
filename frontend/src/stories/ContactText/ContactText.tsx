@@ -10,8 +10,8 @@ export const ContactText = ({ ...props }: ContactTextProps) => {
         <p>
           I am open to talking about other projects, freelance and writing
           roles. You can reach me here at{' '}
-          <a href="mailto:andrewbaisden@gmail.com">andrewbaisden@gmail.com</a>.
-          I look forward to hearing from you!
+          <a href="mailto:info@andrewbaisden.com">info@andrewbaisden.com</a>. I
+          look forward to hearing from you!
         </p>
       </div>
     </>
