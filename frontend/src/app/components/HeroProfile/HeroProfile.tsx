@@ -13,7 +13,12 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
     <>
       <div className="hero-profile-container">
         <div className="hero-profile">
-          <Image src={profilePictureHero} alt="Andrew Baisden Profile" width={100} height={100} />
+          <Image
+            src={profilePictureHero}
+            alt="Andrew Baisden Profile"
+            width={100}
+            height={100}
+          />
           <p>Hey there I'm,</p>
           <h1>Andrew Baisden</h1>
           <Typewriter
@@ -32,10 +37,10 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             What I excel at is creating software, websites, apps, and writing.
           </p>
           <a
-            href="https://limey.io/andrewbaisden"
+            href="https://linktr.ee/andrewbaisden"
             target="_blank"
             rel="noopener noreferrer"
-            style={{fontWeight: 'bold'}}
+            style={{ fontWeight: 'bold' }}
             className={
               activeTheme === 'light'
                 ? 'hero-profile-button-light-theme'
