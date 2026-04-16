@@ -7,41 +7,55 @@ export const AboutProfileText = ({ ...props }: AboutProfileTextProps) => {
   return (
     <>
       <article className="about-profile-text">
-        <p>Hey there! 👋</p>
         <p>
-          I’m Andrew, a London-based Software Developer and content creator who
-          lives and breathes building things (powered by coffee, tea, curiosity,
-          and the occasional late-night code session).
+          I’m a Full-Stack Engineer who builds and ships production-ready web
+          applications with React, Next.js, TypeScript, Node.js/NestJS, and
+          Python. AI isn’t a side tool for me, it’s core to how I work. I code
+          every day inside Cursor, and use Claude, ChatGPT, and Gemini for
+          architecture decisions, code generation, debugging, and rapid
+          iteration. I use Warp Terminal with AI autocomplete and custom LLM
+          agents to deliver projects 3 – 4× faster while keeping code clean,
+          scalable, and maintainable. Over the last 7+ years, I’ve delivered:
         </p>
+
+        <ul>
+          <li>
+            Multiple client-facing Next.js platforms that directly increased
+            conversion rates
+          </li>
+          <li>
+            A React + Python full-stack system that replaced legacy Excel
+            processes for a government client
+          </li>
+          <li>
+            Responsive landing pages and digital campaigns for major brands
+            (Sky, Ocado)
+          </li>
+          <li>
+            A 288-page enterprise React technical guide used by developers
+            worldwide
+          </li>
+        </ul>
+
         <p>
-          My core stack is JavaScript/TypeScript + React, but I’m equally
-          comfortable thinking about performance, architecture, tooling, and the
-          little UX details that separate "it works" from "it feels great."
+          I also serve on Packt’s Tech Advisory Board, helping shape upcoming
+          courses on modern full-stack and AI engineering. While I share
+          practical, hands-on knowledge through technical writing, my primary
+          focus is building real systems, not just talking about them. Whether
+          it’s a high-traffic client product or an AI-agent automation project,
+          I deliver measurable business impact with clean architecture and
+          modern tooling.
         </p>
+
         <p>
-          Outside of client work and coding sessions, I create content to help
-          developers level up, from practical programming insights to breakdowns
-          of modern stacks, workflows, and the tools I’m testing. Recently, that
-          has meant delving deep into AI for developers: agentic tooling,
-          AI-assisted coding workflows, and where all of this is heading.
+          Currently open to: - Full-time Senior/Lead Full-Stack or AI-Augmented
+          Engineer roles (London or remote) - Contract/freelance development
+          projects - Technical advisory or mentoring opportunities
         </p>
+
         <p>
-          I write articles on DEV, Medium, and freeCodeCamp, and I also run a
-          Substack newsletter, where I share deeper thoughts on software
-          development, AI, productivity, and the evolving reality of being a
-          modern developer.
-        </p>
-        <p>
-          This website is my little corner of the internet, built with the same
-          mindset I bring to engineering: clean design, thoughtful UX, and a
-          focus on craft.
-        </p>
-        <p>
-          If you’re into tech, AI, web dev, or just enjoy a good programming
-          meme, come say hi 👇
-        </p>
-        <p>
-          Let’s build cool stuff and make the internet a little more awesome 🚀
+          If you’re looking for a developer who can design, code, ship, and
+          iterate fast using the latest AI-powered workflows, let’s talk.
         </p>
       </article>
     </>
