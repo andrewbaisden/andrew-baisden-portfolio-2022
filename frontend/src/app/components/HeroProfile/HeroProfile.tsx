@@ -24,18 +24,17 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
           <Typewriter
             options={{
               strings: [
-                'Full-Stack Engineer',
-                'AI-Augmented Developer',
-                'React • Next.js • Node • Python',
-                'Ships Production Apps with AI',
-                'Packt Tech Advisory Board',
+                'Full Stack Engineer',
+                'Software Engineer and Builder',
+                'React and Next.js Developer',
+                'Building Production Ready Software',
               ],
               autoStart: true,
               loop: true,
             }}
           />
           <p className="hero-profile-tagline">
-            I enjoy creating software, websites, apps, and working with AI.
+            I enjoy creating software, websites, apps, and working with AI
           </p>
           <a
             href="https://linktr.ee/andrewbaisden"

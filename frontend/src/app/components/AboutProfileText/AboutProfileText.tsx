@@ -1,64 +1,90 @@
 import React from 'react';
 import './AboutProfileText.css';
 
-interface AboutProfileTextProps {}
-
-export const AboutProfileText = ({ ...props }: AboutProfileTextProps) => {
+export const AboutProfileText = () => {
   return (
-    <>
-      <article className="about-profile-text">
-        <p>
-          I’m a Full-Stack Engineer who builds and ships production-ready web
-          applications with React, Next.js, TypeScript, Node.js/NestJS, and
-          Python. AI isn’t a side tool for me, it’s core to how I work. I code
-          every day inside Cursor, and use Claude, ChatGPT, and Gemini for
-          architecture decisions, code generation, debugging, and rapid
-          iteration. I use Warp Terminal with AI autocomplete and custom LLM
-          agents to deliver projects 3 – 4× faster while keeping code clean,
-          scalable, and maintainable. Over the last 7+ years, I’ve delivered:
-        </p>
+    <article className="about-profile-text">
+      <p>
+        I’m a Full Stack Engineer who builds and ships production ready software
+        using React, Next.js, TypeScript, Node.js/NestJS, and Python.
+      </p>
 
-        <ul>
-          <li>
-            Multiple client-facing Next.js platforms that directly increased
-            conversion rates
-          </li>
-          <li>
-            A React + Python full-stack system that replaced legacy Excel
-            processes for a government client
-          </li>
-          <li>
-            Responsive landing pages and digital campaigns for major brands
-            (Sky, Ocado)
-          </li>
-          <li>
-            A 288-page enterprise React technical guide used by developers
-            worldwide
-          </li>
-        </ul>
+      <p>
+        I’m interested in building modern products where thoughtful engineering,
+        great developer experience, and AI assisted workflows come together. AI
+        isn’t a replacement for engineering fundamentals, it’s part of how I
+        work. I use it throughout the development process for exploring ideas,
+        architecture, implementation, debugging, testing, documentation, and
+        rapid iteration.
+      </p>
 
-        <p>
-          I also serve on Packt’s Tech Advisory Board, helping shape upcoming
-          courses on modern full-stack and AI engineering. While I share
-          practical, hands-on knowledge through technical writing, my primary
-          focus is building real systems, not just talking about them. Whether
-          it’s a high-traffic client product or an AI-agent automation project,
-          I deliver measurable business impact with clean architecture and
-          modern tooling.
-        </p>
+      <p>
+        My everyday development environment includes Cursor and VS Code, with
+        Ghostty as my terminal and Postman for working with APIs. I regularly
+        work with leading LLMs including Claude, ChatGPT, and Gemini, choosing
+        the right tool for the task instead of relying on a single model or
+        workflow.
+      </p>
 
-        <p>
-          Currently open to: - Full-time Senior/Lead Full-Stack or AI-Augmented
-          Engineer roles (London or remote) - Contract/freelance development
-          projects - Technical advisory or mentoring opportunities
-        </p>
+      <p>
+        Over the last 7+ years, I have worked across a range of products and
+        platforms, including:
+      </p>
 
-        <p>
-          If you’re looking for a developer who can design, code, ship, and
-          iterate fast using the latest AI-powered workflows, let’s talk.
-        </p>
-      </article>
-    </>
+      <ul>
+        <li>
+          Client facing Next.js platforms designed to improve user experience
+          and conversion
+        </li>
+        <li>
+          React and Python systems that replaced legacy Excel based processes
+          for a government client
+        </li>
+        <li>
+          Responsive websites and digital campaigns for major brands including
+          Sky and Ocado
+        </li>
+        <li>
+          A 288 page enterprise React technical guide used by developers around
+          the world
+        </li>
+      </ul>
+
+      <p>
+        I also serve on Packt’s Tech Advisory Board, helping shape educational
+        content around modern full-stack development and AI engineering.
+      </p>
+
+      <p>
+        While I’ve built a following through technical writing and developer
+        focused content, my primary focus is building software. I enjoy taking
+        an idea from architecture through implementation and deployment, then
+        iterating based on what users and businesses actually need.
+      </p>
+
+      <h2>What I’m looking for</h2>
+
+      <ul>
+        <li>
+          Senior/Lead Full-Stack or AI focused engineering roles, London or
+          remote
+        </li>
+        <li>Contract and freelance development projects</li>
+        <li>Technical advisory and mentoring opportunities</li>
+      </ul>
+
+      <p>
+        I’m interested in working with teams that care about good engineering,
+        great architecture, and shipping useful software, and who see AI as a
+        powerful part of the modern development workflow and not just a
+        substitute for engineering judgement.
+      </p>
+
+      <p>
+        If you are looking for an engineer who can design, build, ship, and
+        iterate on modern software, let’s talk.
+      </p>
+    </article>
   );
 };
 

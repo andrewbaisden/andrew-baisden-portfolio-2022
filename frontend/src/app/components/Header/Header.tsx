@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../img/logo.svg';
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
 import './Header.css';
-import Image from 'next/image'
+import Image from 'next/image';
 
 interface Headerprops {
   homeRef: any;
@@ -41,7 +41,12 @@ export const Header = ({
                 handleScroll(homeRef.current);
               }}
             >
-              <Image src={Logo} alt="Andrew Baisden Logo" />
+              <Image
+                src={Logo}
+                alt="Andrew Baisden Logo"
+                width={50}
+                height={50}
+              />
             </a>
           </div>
           <div className="navigation">
@@ -107,7 +112,12 @@ export const Header = ({
               handleScroll(homeRef.current);
             }}
           >
-            <Image src={Logo} alt="Andrew Baisden Logo" />
+            <Image
+              src={Logo}
+              alt="Andrew Baisden Logo"
+              width={50}
+              height={50}
+            />
           </a>
         </div>
         <div>

@@ -43,7 +43,7 @@ export const FooterText = ({ ...props }: FooterTextProps) => {
           </a>
           &nbsp;and built using&nbsp;
           <a
-            href="https://reactjs.org/"
+            href="https://nextjs.org/"
             target="_blank"
             rel="noopener noreferrer"
             className={
@@ -52,7 +52,7 @@ export const FooterText = ({ ...props }: FooterTextProps) => {
                 : 'footer-text-link-light-theme'
             }
           >
-            React
+            Next.js
           </a>
           &nbsp;by Andrew Baisden.
         </p>
