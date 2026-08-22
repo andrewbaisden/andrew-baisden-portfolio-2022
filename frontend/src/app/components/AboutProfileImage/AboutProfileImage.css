@@ -73,10 +73,10 @@
     ##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
 	/* CSS */
 	.about-profile-image svg {
-		width: 20rem;
-		max-width: 20rem;
+		width: min(20rem, 100%);
+		max-width: 100%;
 	}
 }

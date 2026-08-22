@@ -5,3 +5,21 @@
 .hero-bg-dark-theme {
   fill: rgb(26, 26, 26);
 }
+
+.hero-artwork {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .hero-container {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
+
+  .hero-artwork {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -51,11 +51,6 @@ export const AboutProfileText = () => {
       </ul>
 
       <p>
-        I also serve on Packt’s Tech Advisory Board, helping shape educational
-        content around modern full-stack development and AI engineering.
-      </p>
-
-      <p>
         While I’ve built a following through technical writing and developer
         focused content, my primary focus is building software. I enjoy taking
         an idea from architecture through implementation and deployment, then

@@ -48,6 +48,7 @@ body {
   color: var(--color-text-primary);
   font-family: var(--main-font-family);
   transition: background 0.25s ease-in-out;
+  overflow-x: hidden;
 }
 
 .hero-container {
@@ -208,7 +209,7 @@ main {
 	##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   /* CSS */
   .hero-bio-container {
     width: 100%;

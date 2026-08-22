@@ -9,6 +9,10 @@ ul {
   margin-left: 1.5rem;
 }
 
+.about-profile-text {
+  text-align: center;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -59,9 +63,9 @@ ul {
 	##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   /* CSS */
   .about-profile-text p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }

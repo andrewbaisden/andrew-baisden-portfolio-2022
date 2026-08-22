@@ -241,7 +241,13 @@
   }
   .carousel-button-light-theme,
   .carousel-button-dark-theme {
-    width: 10rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
   }
   .carousel .slide img {
     display: none;
@@ -257,7 +263,7 @@
 	##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   /* CSS */
   .social-media-carousel-slide-light-theme,
   .social-media-carousel-slide-dark-theme {
@@ -279,7 +285,13 @@
   }
   .carousel-button-light-theme,
   .carousel-button-dark-theme {
-    width: 10rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
   }
   .carousel .slide img {
     display: none;

@@ -71,7 +71,7 @@
   background: var(--main-font-color);
   padding: 1rem 1rem 2rem 1rem;
   border-radius: 5rem;
-  box-shadow: 0rem 0.1rem 0.313rem 0rem rgb(51, 51, 51);
+  box-shadow: 0rem 0.1rem 0.313rem 0rem rgb(255, 255, 255);
   cursor: pointer;
   width: 15rem;
   height: 2.5rem;
@@ -122,15 +122,21 @@
   .hero-profile-button-light-theme,
   .hero-profile-button-dark-theme {
     margin-top: 1rem;
-    font-size: 0.5rem;
-    height: 1rem;
-    width: 10rem;
-    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
     left: 0;
   }
 
   .hero-profile span {
     font-size: 1rem;
+    background: var(--main-font-color);
+    display: inline-block;
+    padding: 0.5rem;
   }
 }
 
@@ -165,15 +171,21 @@
   .hero-profile-button-light-theme,
   .hero-profile-button-dark-theme {
     margin-top: 1rem;
-    font-size: 0.5rem;
-    height: 1rem;
-    width: 10rem;
-    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
     left: 0;
   }
 
   .hero-profile span {
     font-size: 1rem;
+    background: var(--main-font-color);
+    display: inline-block;
+    padding: 0.5rem;
   }
 }
 
@@ -182,7 +194,7 @@
 	##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   /* CSS */
   .hero-profile img {
     display: none;
@@ -209,6 +221,8 @@
   .hero-profile span {
     font-size: 1rem;
     background: var(--main-font-color);
+    padding: 0.2rem;
+    display: inline-block;
     padding: 0.2rem;
   }
 }

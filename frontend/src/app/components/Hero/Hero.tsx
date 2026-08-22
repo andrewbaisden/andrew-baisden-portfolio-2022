@@ -10,9 +10,11 @@ export const Hero = ({ ...props }: HeroProps) => {
   return (
     <>
       <svg
+        className="hero-artwork"
         viewBox="0 0 1512 882"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMid slice"
       >
         <g id="Hero">
           <rect
